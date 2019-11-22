@@ -19,17 +19,17 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="/clasebasededatos/index.php">Inicio <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="/tpestacionamiento/index.php">Inicio <span class="sr-only">(current)</span></a>
             </li>
               <?php 
             if(isset($_SESSION['usuario'])==false){
               //solo muestra estos item , si el usuario no esta logeado
             ?>
             <li class="nav-item">
-              <a class="nav-link" href="/clasebasededatos/paginas/registro.php">Registrate</a>
+              <a class="nav-link" href="/tpestacionamiento/paginas/registro.php">Registrate</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="/clasebasededatos/paginas/login.php">Login</a>
+              <a class="nav-link" href="/tpestacionamiento/paginas/login.php">Login</a>
             </li>
             <?php 
             }
@@ -41,21 +41,21 @@
             ?>
 
             <li class="nav-item">
-              <a class="nav-link" href="/clasebasededatos/paginas/ingresoVehiculo.php">Ingresar Vehiculo</a>
+              <a class="nav-link" href="/tpestacionamiento/paginas/ingresoVehiculo.php">Ingresar Vehiculo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/clasebasededatos/paginas/facturar.php">Facturar Vehiculo</a>
+              <a class="nav-link" href="/tpestacionamiento/paginas/facturar.php">Facturar Vehiculo</a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" href="/clasebasededatos/paginas/facturados.php">Vehiculos facturados</a>
+              <a class="nav-link" href="/tpestacionamiento/paginas/facturados.php">Vehiculos facturados</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/clasebasededatos/paginas/estacionados.php">Vehiculos ingresados</a>
+              <a class="nav-link" href="/tpestacionamiento/paginas/estacionados.php">Vehiculos ingresados</a>
             <li class="nav-item">
-              <a class="nav-link" href="/clasebasededatos/paginas/listaUsuarios.php">Listar usuarios</a>
+              <a class="nav-link" href="/tpestacionamiento/paginas/listaUsuarios.php">Listar usuarios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/clasebasededatos/funciones/hacerLogout.php">Cerrar Sesion</a>
+              <a class="nav-link" href="/tpestacionamiento/funciones/hacerLogout.php">Cerrar Sesion</a>
             </li>
           
             <?php 
@@ -71,10 +71,10 @@
 
            
             <li class="nav-item">
-              <a class="nav-link" href="/clasebasededatos/paginas/facturados.php">Historial Vehiculos</a>
+              <a class="nav-link" href="/tpestacionamiento/paginas/facturados.php">Historial Vehiculos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/clasebasededatos/paginas/listaUsuarios.php">Historial Empleados</a>
+              <a class="nav-link" href="/tpestacionamiento/paginas/listaUsuarios.php">Historial Empleados</a>
             </li>
 
             <?php 
@@ -82,7 +82,7 @@
             ?>
          
           </ul>
-          <form class="form-inline mt-2 mt-md-0" action="/clasebasededatos/funciones/hacerLogout.php">
+          <form class="form-inline mt-2 mt-md-0" action="/tpestacionamiento/funciones/hacerLogout.php">
             <input class="form-control mr-sm-2" type="text" placeholder="Quien Soy" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Salir</button>
           </form>

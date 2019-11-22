@@ -69,7 +69,7 @@ $Autos=0;
 $totalFacturado=0;
 date_default_timezone_set('America/Argentina/Buenos_Aires');
 $objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso(); 
-$consulta =$objetoAccesoDato->RetornarConsulta("SELECT  `patente`, `f_entrada`,  FROM `facturados` ");
+$consulta =$objetoAccesoDato->RetornarConsulta("SELECT `id`, `patente`, `f_entrada`, `f_salida`, `importe` FROM `facturados` ");
 $consulta->execute();     
 $datos= $consulta->fetchAll(PDO::FETCH_ASSOC);
 

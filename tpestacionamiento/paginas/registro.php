@@ -34,7 +34,7 @@ session_start();
 
       
 
-      <form action="../funciones/hacerRegistro.php" class="form-signin">
+      <form action="tpestacionamiento/funciones/hacerRegistro.php" class="form-signin">
       <div class="text-center mb-4">
         <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
 

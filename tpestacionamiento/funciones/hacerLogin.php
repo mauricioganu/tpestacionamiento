@@ -49,7 +49,7 @@ foreach ($datos as $usuario )
 			$banderausuario=1;
 			$_SESSION["usuario"]= $usuario["nombre"];
 			setcookie("cookie", $_SESSION['usuario']);
-			header ("Location: /clasebasededatos/index.php" );
+			header ("Location: /tpestacionamiento/index.php" );
 			exit();
 		}
 

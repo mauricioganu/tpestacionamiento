@@ -16,7 +16,7 @@ $datos= $consulta->fetchAll(PDO::FETCH_ASSOC);
 foreach ($datos as $usuario ) {
 	if ($usuario["nombre"]==$miObjeto->usuario) {
 
-		header("Location: ../paginas/usuarioexistente.php");
+		header("Location: tpestacionamiento/paginas/usuarioexistente.php");
 		exit();
 	}
 	
@@ -30,7 +30,7 @@ $insert="INSERT INTO `usuario`( `nombre`, `clave`)  VALUES ('$miObjeto->usuario 
 			
 $consulta =$objetoAccesoDato->RetornarConsulta($insert);
 $consulta->execute();	
-		header("Location: ../paginas/ok.php");	
+		header("Location: tpestacionamiento/paginas/ok.php");	
 
 
 ?>

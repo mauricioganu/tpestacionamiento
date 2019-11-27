@@ -17,7 +17,7 @@ session_start();
     <!-- Custom styles for this template -->
     <link href="../css/sticky-footer-navbar.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="../css/floating-labels.css" rel="stylesheet">
+    <link href="../css/3.css" rel="stylesheet">  
 
   </head>
 
@@ -33,8 +33,18 @@ session_start();
     <main role="main" class="container">
          
       <form action="hacerfacturar.php"> 
+        <style>
+            h1,h2{
+                color:black;
+      
+      font-size: 20 px;
+      font-family: showcard;
+      font-style: italic;
+      
+            }
+         </style>
+      <h1><em><m>Su factura es</m></em> </h1>
 
-      <h1>Cobrar</h1>
 
       <?php
 
@@ -45,23 +55,44 @@ session_start();
           $ingreso = $_GET['ingreso'];
           $salida = $_GET['salida'];
 
-          echo "Vehiculo: ".$patente."<br>";
-          echo "Hora de ingreso: ".$ingreso."<br>";
-          echo "Hora de salida: ".$salida."<br>";
-          echo "Cobrar: $".$cobrar."<br>";
+          echo "<p style='color:black;
+      
+      font-size: 20 px;
+      font-family: showcard;
+      font-style: italic;border: 
+    text-align: center';> Vehiculo: ".$patente."</p>";
+          echo "<p style='color:black;
+      
+      font-size: 20 px;
+      font-family: showcard;
+      font-style: italic;border: 
+    text-align: center';> Hora de ingreso:  ".$ingreso."</p>";
+          echo "<p style='color:black;
+      
+      font-size: 20 px;
+      font-family: showcard;
+      font-style: italic;border: 
+    text-align: center';> Hora de salida: ".$salida."</p>";
+          echo "<p style='color:black;
+      
+      font-size: 20 px;
+      font-family: showcard;
+      font-style: italic;border: 
+    text-align: center';> Debe abonar :".$cobrar."</p><br>";
         
 
           ?>
             <br>
             <br>
-            <a href="../paginas/facturar.php"><h4>Facturar Otro Vehiculo</h4></a>
-            <a href="../index.php"><h4>Volver al Inicio</h4></a>
+
+         <!--   <a href="../paginas/facturar.php"><h4>Facturar Otro Vehiculo</h4></a>
+            <a href="../index.php"><h4>Volver al Inicio</h4></a> -->
         
     </main>
       
      <footer class="footer">
     <?php
-        include "componentes/pie.php";
+        include "../componentes/pie.php";
     ?>
     </footer>
 

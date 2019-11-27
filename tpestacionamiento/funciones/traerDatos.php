@@ -2,10 +2,10 @@
 <?php
 include 'accesoADatos.php';
 	session_start();
-			$objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso(); //obtener el acceso
-			$consulta =$objetoAccesoDato->RetornarConsulta("select nombre, 	clave from usuario"); //crar la consulta
-			$consulta->execute();			//ejecutar consulta
-			$datos= $consulta->fetchAll(PDO::FETCH_ASSOC);		//trar formato esperado
+			$objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso(); 
+			$consulta =$objetoAccesoDato->RetornarConsulta("select nombre, 	clave from usuario");
+			$consulta->execute();			
+			$datos= $consulta->fetchAll(PDO::FETCH_ASSOC);		
 			//var_dump($datos);
 			foreach ($datos as $usuario ) {
 				//var_dump($usuario );

@@ -17,7 +17,7 @@ session_start();
     <!-- Custom styles for this template -->
     <link href="../css/sticky-footer-navbar.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="../css/floating-labels.css" rel="stylesheet">
+    <link href="../css/3.css" rel="stylesheet">
 
   </head>
 
@@ -32,16 +32,26 @@ session_start();
 
     <!-- Begin page content -->
     <main role="main" class="container">
-         
+         <style>
+            h1,h2{
+                color:black;
+      
+      font-size: 20 px;
+      font-family: showcard;
+      font-style: italic;
+      
+            }
+         </style>
        <h1>Se ha registrado su vehiculo</h1>
         <img src="https://i0.pngocean.com/files/657/646/363/chroma-key-check-mark-tilde-symbol-green-tick.jpg" width="100" height="100">
         <br>
         
-         <h1>Se ha registrado su vehiculo</h1><br>
         
-          <h1>Cargar nueva patente</h1>  <a href="../paginas/ingresoVehiculo.php"><h2>Cargar</h2></a>
+        
+          <h1>Cargar nueva patente</h1>  
 
-          
+           <button class="image"  type="submit"><img src ="https://png.pngtree.com/png-vector/20190122/ourlarge/pngtree-red-stereoscopic-down-arrow-creative-png-image_527227.jpg" width="375" height="80" ><a href="../paginas/ingresoVehiculo.php"><h2>Clic aqui</h2></a>
+          </button>
 
     </main>
       

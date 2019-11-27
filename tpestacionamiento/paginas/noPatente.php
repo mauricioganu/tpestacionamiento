@@ -17,7 +17,7 @@ session_start();
     <!-- Custom styles for this template -->
     <link href="../css/sticky-footer-navbar.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="../css/floating-labels.css" rel="stylesheet">
+    <link href="../css/3.css" rel="stylesheet">
 
   </head>
 
@@ -34,14 +34,26 @@ session_start();
     <main role="main" class="container">
          
        
+      <style>
+            h1,h2{
+                color:black;
       
+      font-size: 20 px;
+      font-family: showcard;
+      font-style: italic;
+      
+            }
+         </style>
+       
         
          <img src="https://cdn.pixabay.com/photo/2012/04/12/20/12/x-30465_960_720.png" width="100" height="100">
           <h1>Patente inexistente</h1>
         <br>
         
           <h1>Ingrese nuevamente su patente</h1>
-          <a href="../paginas/facturar.php"><h2>Haz click aqui</h2></a>
+          <button class="image"  type="submit"><img src ="https://png.pngtree.com/png-vector/20190122/ourlarge/pngtree-red-stereoscopic-down-arrow-creative-png-image_527227.jpg" width="375" height="80" ><a href="../paginas/facturar.php"><h2>Patente</h2></a>
+          </button>
+         
          
 
     </main>

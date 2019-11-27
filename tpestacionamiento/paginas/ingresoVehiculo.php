@@ -36,12 +36,28 @@ session_start();
 
                               <form class="form-signin" action="../funciones/hacervehiculo.php">
                               
+                               <style>
+                                       h1,input{
+                                              color:black;
+      
+                                                font-size: 20 px;
+                                                   font-family: showcard;
+                                                    font-style: italic;
+                                                   text-align: center;
+                                               }
+         </style>
                               <h1 class="h3 mb-3 font-weight-normal">Ingrese patente del vehiculo</h1>
                               <label for="inputEmail" class="sr-only">Patente</label>
-                              <input type="text" id="patente"  name="patente"class="form-control" placeholder="Ingrese su patente" required autofocus>
-                             
                               
-                              <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
+                             
+                              <input type="text" id="patente"  name="patente" pattern="([a-zñ]{3}\d{3}|[a-zñ]{2}\d{3}[a-zñ]{2})$" class="form-control" placeholder="aaa111 / aa123aa" required autofocus>
+
+
+
+
+
+                              
+                              <button class="image"  type="submit"><img src ="https://pngimage.net/wp-content/uploads/2018/05/boton-ingresar-png-2.png" width="375" height="80"></button>
                               
                               </form>
                             

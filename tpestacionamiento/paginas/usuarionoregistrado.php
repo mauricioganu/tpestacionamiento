@@ -17,7 +17,7 @@ session_start();
     <!-- Custom styles for this template -->
     <link href="../css/sticky-footer-navbar.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="../css/floating-labels.css" rel="stylesheet">
+    <link href="../css/3.css" rel="stylesheet">
 
   </head>
 
@@ -32,9 +32,18 @@ session_start();
 
     <!-- Begin page content -->
     <main role="main" class="container">
-         
+          <style>
+          h1{
+             color:black;
+      
+            font-size: 20 px;
+            font-family: showcard;
+            font-style: italic;
+          text-align: left;
+                 }
+            </style>
        
-       <h1>Error contraseña y usuario inexistente</h1>
+       <h1>Error contraseña o usuario inexistente</h1>
        
 
     </main>

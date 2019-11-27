@@ -32,7 +32,16 @@ session_start();
 
     <!-- Begin page content -->
     <main role="main" class="container">
-         
+         <style>
+            h2,h3{
+                color:black;
+      
+      font-size: 20 px;
+      font-family: showcard;
+      font-style: italic;
+      text-align: center;
+            }
+         </style>
       <h2 class="mt-5">Entre y salga despacio S.A</h2>
       
 
@@ -43,7 +52,7 @@ session_start();
                   if(isset($_SESSION['usuario'])){
                     //solo muestra el menu si estas con la variable de sesión instaciada
             ?>
-                              <h2>Ya se encuentra logeado</h2>
+                              <h2>Ya se encuentra logueado</h2>
                               <h3>  <?php echo $_SESSION['usuario'];?>  </h3>
 
 
@@ -56,6 +65,16 @@ session_start();
 
                               <form class="form-signin" action="../funciones/hacerLogin.php">
                               
+                              <style>
+                                  h1{
+                                     color:black;
+      
+                                    font-size: 20 px;
+                                   font-family: showcard;
+                                   font-style: italic;
+                                    text-align: center;
+                                        }
+                                    </style>
                               <h1 class="h3 mb-3 font-weight-normal">Ingreso a la plataforma</h1>
                               <label for="usuario" class="sr-only">Usuario</label>
                               <input type="text" id="usuario"  name="usuario"class="form-control" placeholder="nombre de usuario" required autofocus>
@@ -66,7 +85,7 @@ session_start();
                                   <input type="checkbox" value="remember-me"> Recordarme
                                 </label>
                               </div>
-                              <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
+                              <button class="image"  type="submit"><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9AEhsQ9_86bPh-c7f76-4rfTRCj1oik2Mcb2LRuLDIjK5K9_g&s" width="375" height="80"></button>
                              
                               </form>
                             

@@ -1,0 +1,131 @@
+.first{
+  height: 200px;
+}
+.second{
+  background-color: #3c3c3c; 
+  height: 700px;
+  text-align: center;
+}
+input[type="button"]{
+  display: inline-block;
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  margin: 5px;
+}
+input[type="button"]:hover{
+  border: 4px solid #fff;
+}
+.btn-generator{
+  color: #eee;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 1.2em;
+    cursor: pointer;
+    font-family: Arial;
+    color: #fff;
+    position: relative;
+    background: #4CAF50;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.bg-1{
+  background-color:#ff6347;
+}
+.bg-2{
+  background-color:#3cb371;
+}
+.bg-3{
+  background-color:#ffa500;
+}
+.bg-4{
+  background-color:#fff;
+}
+
+.color:nth-child(1) {
+  background-color: #EFEFEF;
+}
+.color:nth-child(1)::before {
+  content: "#EFEFEF";
+}
+.color:nth-child(2) {
+  background-color: #F2C500;
+}
+.color:nth-child(2)::before {
+  content: "#F2C500";
+}
+
+.color:nth-child(3) {
+  background-color: #F5A623;
+}
+.color:nth-child(3)::before {
+  content: "#F5A623";
+ }
+}
+.btn-generator{
+  color: #eee;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 1.2em;
+    cursor: pointer;
+    font-family: Arial;
+    color: #fff;
+    position: relative;
+    background: #4CAF50;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.controls {
+  width: 300px;
+  height: auto;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}

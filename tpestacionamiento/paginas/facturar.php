@@ -36,16 +36,33 @@ session_start();
                               <form class="form-signin" action="../funciones/hacerfacturar.php">
                                 <style>
                                     h1{
-                                         color:black;
+                                         color:pink;
       
                                            font-size: 20 px;
                                            font-family: showcard;
                                            font-style: italic;
                                                    text-align: center;
-                                                                 }
+                                                 
+
+
+
+
+
+                                                  }
+
+
+
+
+                                                  h2{
+                                                    color:yellow;
+                                                  }
                                                  </style>
+
+
+
+
                               
-                              <h1 class="h3 mb-3 font-weight-normal">Facturar vehiculo</h1>
+                              <h1 class="h3 mb-3 font-weight-normal"><h2>Facturar vehiculo</h2></h1>
                               <label for="inputEmail" class="sr-only">Patente</label>
                              
                               <input type="text" id="patente"  name="patente" pattern="([a-zñ]{3}\d{3}|[a-zñ]{2}\d{3}[a-zñ]{2})$" class="form-control" placeholder="aaa111 / aa123aa" required autofocus>
